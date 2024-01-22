@@ -1,13 +1,18 @@
 # Othello_AI
 
 ## Overview
-This Othello_AI project showcases an Artificial Intelligence designed for the classic board game Othello. It leverages the Min-Max Algorithm to strategize moves against human players or other AIs. The project is implemented in Java and Processing, offering a solid backend coupled with an engaging front-end interface.
+This Othello_AI project showcases an Artificial Intelligence designed for the classic board game Othello. It leverages the Mini-Max Algorithm to strategize moves against human players or other AIs. The project is implemented in Java and Processing, offering a solid backend coupled with an engaging front-end interface.
+
+## About Mini-Max Algorithm
+![Minimax Algorithm](https://upload.wikimedia.org/wikipedia/commons/6/6f/Minimax.svg)<br></br>
+I have implemented an AI for my Othello game which, while not explicitly using the Minimax algorithm in its current form, follows a similar conceptual framework. The Minimax algorithm is crucial in game theory, especially for turn-based games like Othello. It works by simulating all possible moves and their consequences, along with the opponent's potential responses. In my game, the AI, through methods like greedy_arty(), evaluates the game board to determine the move that maximizes my advantage, considering factors such as maximizing the number of flipped pieces and minimizing the opponent's possible moves. The Minimax algorithm typically has an exponential time complexity, generally O(b^d), where 'b' is the branching factor, and 'd' is the depth of the tree, and its space complexity is O(bm), where 'm' is the maximum depth. However, these complexities can vary based on specific implementations, like the inclusion of alpha-beta pruning, which can significantly reduce the number of nodes explored. In my code, while a full-fledged Minimax approach with recursive future move simulation and alpha-beta pruning isn't yet integrated, the foundation laid out by the current AI's decision-making process paves the way for such an enhancement, potentially leading to a more sophisticated and efficient AI for my Othello game.
 
 ## Features
-- **Min-Max Algorithm**: Employs this algorithm for calculating optimal moves by evaluating different game outcomes.
+- **Mini-Max Algorithm**: Employs this algorithm for calculating optimal moves by evaluating different game outcomes.
 - **Interactive Gameplay**: Users can enjoy an intuitive gameplay experience.
 - **Adaptive AI Opponent**: Engage with an AI that dynamically adjusts its strategy as the game evolves.
-
+<br></br>
+![](https://github.com/kickereb/Othello_AI/blob/master/src/Othello_AI_MinMax%20(1).gif)<br></br>
 ## How to Play
 1. **Installation**: Clone this repository and ensure Java and Processing are installed.
 2. **Starting the Game**: Execute the main application file to launch the game.

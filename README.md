@@ -14,7 +14,7 @@ I have implemented an AI for my Othello game which, while not explicitly using t
 <br></br>
 ![](https://github.com/kickereb/Othello_AI/blob/master/src/Othello_AI_MinMax%20(1).gif)<br></br>
 ## How to Play
-1. **Installation**: Clone this repository and ensure Java and Processing are installed.
+1. **Installation**: Clone this repository and ensure Java and [Processing](https://processing.org/) are installed.
 2. **Starting the Game**: Execute the main application file to launch the game.
 3. **Gameplay**: Choose to play against the AI or observe an AI vs. AI match.
 4. **Making Moves**: Interact with the game board via the user interface to place discs.
